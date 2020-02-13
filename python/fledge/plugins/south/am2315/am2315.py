@@ -34,7 +34,8 @@ _DEFAULT_CONFIG = {
         'type': 'string',
         'default': 'am2315/%M/',
         'order': '1',
-        'displayName': 'Asset Name'
+        'displayName': 'Asset Name',
+        'mandatory': 'true'
     },
     'i2cAddress': {
         'description': 'I2C address in hex',
