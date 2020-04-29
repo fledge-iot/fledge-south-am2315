@@ -35,7 +35,7 @@ To create a south service with the AM2315 plugin
 
     - **Asset Name**: The name of the asset that will be created. To help when multiple AM2315 sensors are used a %M may be added to the asset name. This will be replaced with the I2C address of the sensor.
 
-    - **I2C Address**: The I2C address of the sensor, this allows multiple sensors t be added to the same I2C bus.
+    - **I2C Address**: The I2C address of the sensor, this allows multiple sensors to be added to the same I2C bus.
 
   - Click *Next*
 
