@@ -28,7 +28,7 @@ To create a south service with the AM2315 plugin
   - Name your service and click *Next*
 
   +------------+
-  | |am2315_1| |
+  | |am2315_2| |
   +------------+
 
   - Configure the plugin
