@@ -2,7 +2,7 @@
 .. |am2315_1| image:: images/am2315_1.jpg
 .. |am2315_2| image:: images/am2315_2.jpg
 
-.. |degC| :sup:`o`\ C
+.. |degC| replace:: :sup:`o`\ C
 
 AM2315 Temperature & Humidity Sensor
 ====================================
