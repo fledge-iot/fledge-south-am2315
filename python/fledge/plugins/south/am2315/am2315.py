@@ -8,7 +8,6 @@
 
 import copy
 import datetime
-import uuid
 import logging
 
 import smbus
@@ -35,7 +34,8 @@ _DEFAULT_CONFIG = {
         'type': 'string',
         'default': 'am2315/%M/',
         'order': '1',
-        'displayName': 'Asset Name'
+        'displayName': 'Asset Name',
+        'mandatory': 'true'
     },
     'i2cAddress': {
         'description': 'I2C address in hex',
@@ -60,7 +60,7 @@ def plugin_info():
 
     return {
         'name': 'AM2315 Poll Plugin',
-        'version': '1.7.0',
+        'version': '1.8.0',
         'mode': 'poll',
         'type': 'south',
         'interface': '1.0',
@@ -141,7 +141,6 @@ def plugin_poll(handle):
         data = {
             'asset': asset_name,
             'timestamp': time_stamp,
-            'key': str(uuid.uuid4()),
             'readings': {
                 "temperature": temperature,
                 "humidity": humidity
