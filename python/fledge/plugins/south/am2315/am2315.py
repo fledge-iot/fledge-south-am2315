@@ -60,7 +60,7 @@ def plugin_info():
 
     return {
         'name': 'AM2315 Poll Plugin',
-        'version': '2.1.0',
+        'version': '2.1.1',
         'mode': 'poll',
         'type': 'south',
         'interface': '1.0',
